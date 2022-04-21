@@ -14,7 +14,7 @@ public class MarcuryOrbit : MonoBehaviour
         var xPos = Mathf.Sin(angle);
         var zPos = Mathf.Cos(angle);
         
-        transform.localPosition = new Vector3(xPos, 1f, zPos);
+       
         transform.Rotate (Vector3.up, speed*Time.deltaTime);
 
         angle += 10f * Time.deltaTime;
